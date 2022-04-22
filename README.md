@@ -5,10 +5,10 @@ What Do You Need?
 -Tester For Your Device
 -Mininum 100GB Internet
 ## SYNC The LineageOS!
-Now First Create Dir For Your Rom. like this: `mkdir los17`
+Now First Create Dir For Your Rom. like this: ```mkdir los17```
 Now Second İnit The LineageOS Repo
 Like This
-`repo init -u https://github.com/LineageOS/android -b lineage-17.1`
+```repo init -u https://github.com/LineageOS/android -b lineage-17.1```
 Here! Your Branch Is `LineageOS 17.1` But How To Change It? 
 -b `your-branch` in here -b feature says: `I Want The Your Custom Rom BRANCH!!!`
 ## Sync The Rom...
@@ -18,18 +18,18 @@ And Wait A 10 Minute-2 Hours... Thats Very Long ;(
 ## Working On The Rom
 You Need The Sync Your Device Tress To Build İt. 
 now paste this commands:
-`git clone https://github.com/samsungexynos7870/android_device_samsung_j7y17lte -b crdroid device/samsung/j7y17lte
+```git clone https://github.com/samsungexynos7870/android_device_samsung_j7y17lte -b crdroid device/samsung/j7y17lte
 git clone https://github.com/samsungexynos7870/android_device_samsung_universal7870-common -b lineage-17 device/samsung/universal7870-common
 git clone https://github.com/samsungexynos7870/android_kernel_samsung_exynos7870 -b aosp kernel/samsung/exynos7870
 git clone https://github.com/samsungexynos7870/android_vendor_samsung_j7y17lte -b common vendor/samsung/j7y17lte
 git clone https://github.com/samsungexynos7870/android_vendor_samsung_universal7870-common -b common vendor/samsung/universal7870-common
 git clone https://github.com/samsungexynos7870/android_hardware_samsung -b lineage-17.1 hardware/samsung
-`
+```
 now all device tress synced!
 ## Build The Rom 
 You Need The Setup The Evrioment But How? 
-use this command `. build/envsetup.sh`
-and now it ready for build. first use the `lunch` command and select the `lineage_j7y17lte-userdebug` now make the build. use `make bacon` and now the build started! Good Luck!
+use this command ```. build/envsetup.sh```
+and now it ready for build. first use the `lunch` command and select the `lineage_j7y17lte-userdebug` now make the build. use ```make bacon``` and now the build started! Good Luck!
 
 
 
