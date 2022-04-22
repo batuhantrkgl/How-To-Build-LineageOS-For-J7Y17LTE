@@ -5,15 +5,17 @@ What Do You Need?
 -Tester For Your Device
 -Mininum 100GB Internet
 ## SYNC The LineageOS!
-Now First Create Dir For Your Rom. like this: ```mkdir los17```
+Now First Create Dir For Your Rom. like this: 
+```mkdir los17```
 Now Second İnit The LineageOS Repo
-Like This
+Like This:
 ```repo init -u https://github.com/LineageOS/android -b lineage-17.1```
 Here! Your Branch Is `LineageOS 17.1` But How To Change It? 
 -b `your-branch` in here -b feature says: `I Want The Your Custom Rom BRANCH!!!`
 ## Sync The Rom...
 What? I Already İnitted Repo Whats This? so you need the sync the rom the working on it.. 
-just paste the this command `repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags`
+just paste the this command 
+```repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags```
 And Wait A 10 Minute-2 Hours... Thats Very Long ;(
 ## Working On The Rom
 You Need The Sync Your Device Tress To Build İt. 
@@ -28,8 +30,11 @@ git clone https://github.com/samsungexynos7870/android_hardware_samsung -b linea
 now all device tress synced!
 ## Build The Rom 
 You Need The Setup The Evrioment But How? 
-use this command ```. build/envsetup.sh```
-and now it ready for build. first use the `lunch` command and select the `lineage_j7y17lte-userdebug` now make the build. use ```make bacon``` and now the build started! Good Luck!
+use this command: 
+```. build/envsetup.sh```
+and now it ready for build. first use the `lunch` command and select the `lineage_j7y17lte-userdebug` now make the build. use: 
+```make bacon```
+and now the build started! Good Luck!
 
 
 
