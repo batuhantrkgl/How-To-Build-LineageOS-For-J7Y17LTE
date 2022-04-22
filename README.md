@@ -42,4 +42,4 @@ and now it ready for build. first use the `lunch` command and select the `lineag
 
 
 
-##Thanks For MAXX, Exynos7870 And LineageOS
+## Thanks For MAXX, Exynos7870 And LineageOS
